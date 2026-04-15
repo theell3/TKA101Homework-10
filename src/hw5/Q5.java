@@ -12,6 +12,7 @@ public class Q5 {
 		 genAuthCode()，當呼叫此方法時，會回傳一個8位數的驗證碼，此驗證碼內容包含了英文大小寫
 		 與數字的亂數組合
 		*/
+		System.out.println("本次隨機產生的驗證碼為：");
 		Q5 obj = new Q5();
 		System.out.println(obj.genAuthCode());
 	}
